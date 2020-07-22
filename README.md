@@ -21,6 +21,12 @@ Serverless diary application where a user can record events, transactions, or ob
 - Application has sufficient monitoring.
 - HTTP requests are validated.
 
+## CI - CD
+
+- Application is integrated with Travis-ci and build and deployment is done automatically.
+- .travis.yml file is added for automation
+- You need to add AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY secrets to the travis repository environment variables
+
 ## Architecture
 
 - Data is stored in a table with a composite key.
