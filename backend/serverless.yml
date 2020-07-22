@@ -18,7 +18,7 @@ provider:
     PROJECT_NAME: udacity-diary-app-myavuz
     JOURNAL_ITEMS_TABLE: JOURNAL-ITEMS-${self:provider.stage}
     INDEX_NAME: itemIdIndex
-    ATTACHMENT_S3_BUCKET: myavuz-diary-items-images2-${self:provider.stage}
+    ATTACHMENT_S3_BUCKET: myavuz-sls-diary-items-images-${self:provider.stage}
 
   iamRoleStatements:
     - Effect: Allow
